@@ -1,0 +1,8 @@
+name: "Генератор ресурсов"
+size: 1
+health: 5000
+category: distribution
+requirements: []
+alwaysUnlocked: true
+buildVisibility: shown
+shownPlanets: [serpulo, erekir]

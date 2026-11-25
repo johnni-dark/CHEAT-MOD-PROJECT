@@ -1,0 +1,9 @@
+name: "Смертельная турель"
+size: 1
+category: turret
+requirements: []
+alwaysUnlocked: true
+buildVisibility: shown
+shownPlanets: [serpulo, erekir]
+targetAir: true
+targetGround: true

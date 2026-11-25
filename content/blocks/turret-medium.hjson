@@ -1,0 +1,9 @@
+name: "Смертельная турель — медиум"
+size: 1
+category: turret
+requirements: []
+alwaysUnlocked: true
+buildVisibility: shown
+shownPlanets: [serpulo, erekir]
+targetAir: true
+targetGround: true
