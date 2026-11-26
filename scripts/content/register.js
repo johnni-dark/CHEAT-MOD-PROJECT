@@ -5,3 +5,5 @@
 require("content/radiation-series");
 
 require("content/generators");
+
+require("content/energy-generator");
