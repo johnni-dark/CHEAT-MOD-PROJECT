@@ -1,0 +1,11 @@
+name: "Сверхскоростной конвейер"
+type: Conveyor
+size: 1
+health: 10000
+category: distribution
+requirements: []
+alwaysUnlocked: true
+buildVisibility: shown
+shownPlanets: [serpulo, erekir]
+speed: 1.666667
+displayedSpeed: 100

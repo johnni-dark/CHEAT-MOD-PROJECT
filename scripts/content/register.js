@@ -7,3 +7,9 @@ require("content/radiation-series");
 require("content/generators");
 
 require("content/energy-generator");
+
+require("content/resource-teleporter");
+
+require("content/liquid-teleporter");
+
+

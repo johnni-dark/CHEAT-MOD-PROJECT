@@ -1,0 +1,10 @@
+name: "Резервуар жидкостей"
+type: LiquidRouter
+size: 1
+health: 10000
+category: liquid
+requirements: []
+alwaysUnlocked: true
+buildVisibility: shown
+shownPlanets: [serpulo, erekir]
+liquidCapacity: 1000000

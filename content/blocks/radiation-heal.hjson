@@ -1,0 +1,13 @@
+name: "Станция лечения"
+type: RepairTurret
+shownPlanets: [serpulo, erekir]
+size: 1
+health: 10000
+requirements: []
+category: effect
+alwaysUnlocked: true
+buildVisibility: shown
+consumes: { power: 5 }
+repairRadius: 120
+repairSpeed: 5
+acceptCoolant: false

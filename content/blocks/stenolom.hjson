@@ -1,0 +1,23 @@
+name: "Стенолом"
+shownPlanets: [serpulo, erekir]
+type: "BeamDrill"
+size: 1
+health: 10000
+tier: 90
+drillTime: 3
+range: 5
+itemCapacity: 100000
+requirements: []
+category: production
+alwaysUnlocked: true
+
+buildVisibility: shown
+
+laserWidth: 0.65
+glowIntensity: 0.35
+pulseIntensity: 0.12
+sparks: 10
+
+glowColor: "75ff35"
+sparkColor: "75ff35"
+heatColor: "75ff35"

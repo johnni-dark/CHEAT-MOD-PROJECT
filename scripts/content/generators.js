@@ -3,6 +3,8 @@
 // Community: https://vk.ru/cheat_mod_project
 // Contact: stalker@call-of-pripyat.ru
 
+const ports = require("utils/ports");
+
 function generator(kind, buildKind, id, field, category, defaultColor){
     const block = extend(kind, id, {});
     block.size = 1;
@@ -21,6 +23,7 @@ function generator(kind, buildKind, id, field, category, defaultColor){
             Draw.color(selected == null ? defaultColor : selected.color);
             Draw.rect(Core.atlas.find(block.name + "-mask"), this.x, this.y);
             Draw.color();
+            ports.drawPorts(this, field === "source", selected == null ? defaultColor : selected.color);
             if(Vars.state.isGame() && !Core.scene.hasMouse()){
                 const hovered = Vars.world.buildWorld(Core.input.mouseWorldX(), Core.input.mouseWorldY());
                 if(hovered != null && hovered.pos() == this.pos()){

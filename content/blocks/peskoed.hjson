@@ -1,0 +1,16 @@
+name: "Пескоед"
+shownPlanets: [serpulo, erekir]
+type: "WallCrafter"
+size: 1
+health: 10000
+drillTime: 1
+rotateSpeed: 1
+itemCapacity: 300
+attribute: sand
+output: sand
+fogRadius: 2
+requirements: []
+category: production
+alwaysUnlocked: true
+
+buildVisibility: shown

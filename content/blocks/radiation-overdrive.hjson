@@ -1,0 +1,16 @@
+name: "Радиоактивный ускоритель"
+type: OverdriveProjector
+shownPlanets: [serpulo, erekir]
+size: 1
+health: 10000
+requirements: []
+category: effect
+alwaysUnlocked: true
+buildVisibility: shown
+consumes: { power: 10 }
+range: 240
+speedBoost: 5
+reload: 30
+hasBoost: false
+phaseRangeBoost: 0
+speedBoostPhase: 0

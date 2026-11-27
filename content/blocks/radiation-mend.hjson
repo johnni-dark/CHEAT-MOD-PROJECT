@@ -1,0 +1,15 @@
+name: "Ремонтная станция"
+type: MendProjector
+shownPlanets: [serpulo, erekir]
+size: 1
+health: 10000
+requirements: []
+category: effect
+alwaysUnlocked: true
+buildVisibility: shown
+consumes: { power: 5 }
+range: 120
+reload: 12
+healPercent: 1
+phaseBoost: 0
+phaseRangeBoost: 0

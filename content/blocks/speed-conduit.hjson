@@ -1,0 +1,11 @@
+name: "Сверхскоростной трубопровод"
+type: Conduit
+size: 1
+health: 10000
+category: liquid
+requirements: []
+alwaysUnlocked: true
+buildVisibility: shown
+shownPlanets: [serpulo, erekir]
+liquidCapacity: 10000
+liquidPressure: 2

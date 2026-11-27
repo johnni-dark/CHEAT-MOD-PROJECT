@@ -1,0 +1,17 @@
+name: "Радиоактивный щит"
+type: ForceProjector
+shownPlanets: [serpulo, erekir]
+size: 1
+health: 10000
+requirements: []
+category: effect
+alwaysUnlocked: true
+buildVisibility: shown
+consumes: { power: 10 }
+radius: 120
+shieldHealth: 1000000
+cooldownNormal: 83.333333
+cooldownBrokenBase: 83.333333
+consumeCoolant: false
+phaseRadiusBoost: 0
+phaseShieldBoost: 0
